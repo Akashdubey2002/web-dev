@@ -1,4 +1,4 @@
-const link="https://saurav.tech/NewsAPI/top-headlines/category/entertainment/in.json";
+const link="https://saurav.tech/NewsAPI/top-headlines/category/health/in.json";
 function getAPIdata(URL){
     fetch(URL)
     .then((res)=>{return res.json ();})
